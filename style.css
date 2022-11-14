@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: white;
+    font-family: pixeled;
+    text-shadow: 0 0 10px #ffffff53, 0 0 20px #ffffff53, 0 0 30px #ffffff53, 0 0 40px #ffffff53, 0 0 50px #ffffff53, 0 0 60px #ffffff53, 0 0 70px #ffffff53;
+
+}
+
+canvas {
+    box-shadow: black 20px 10px 50px;
+    border-style: groove;
+}
+
+#boutonRejouer {
+    display: none;
+    position: absolute;
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    bottom: 170px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: groove;
+}
+
+@font-face {
+    font-family: 'pixeled';
+    src: url('Pixeled.ttf');
+}
